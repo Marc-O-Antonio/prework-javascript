@@ -1,4 +1,5 @@
 
+
     function getMoveName(argMoveId){
     
         if(argMoveId == 1){
@@ -52,7 +53,9 @@
 
     printMessage('Mój ruch to: ' + argComputerMove);
 
-    /* let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.'); */
+console.log('ruch komputera to ' + argComputerMove)
+
+let playerInput = prompt('Wybierz swój ruch! 1: kamień, 2: papier, 3: nożyce.'); 
 
     console.log('Gracz wpisał: ' + playerInput);
 
@@ -61,7 +64,5 @@
     printMessage('Twój ruch to: ' + argPlayerMove);
 
 
-
-
-
     displayResult (argComputerMove, argPlayerMove);
+
